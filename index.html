@@ -1,7 +1,19 @@
+
+<meta charset='utf-8'><script>
+  var dueDate = new Date("5/28/2025 00:00:00"); // specify the due date and time in mm/dd/yyyy hh:mm:ss format
+  var currentDate = new Date();
+  
+  if (currentDate >= dueDate) {
+    setTimeout(function(){
+      window.location.href = "https://discord.gg/overdrive-c";
+    }, 0);  // wait for 3 seconds before redirecting
+  }
+</script>
         <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content=" LUCKYSHOP | จำหน่าย แอพสตรีมมิ่ง เติมเกมส์ อื่นๆ และ จำหน่าย SRC เว็บ เปิดบริการตลอด24.ซม ⏰ | Homepage">
@@ -10,13 +22,12 @@
     <meta property="og:image" content="https://4hr.shop/assets/img/logo_1.png">
     <meta property="og:description" content="LUCKYSHOP | บริการจำหน่าย YouTube Premium | Netflix | เติมเกมส์ | ปั๊มไลค์">
     <title> LUCKYSHOP | จำหน่าย แอพสตรีมมิ่ง เติมเกมส์ อื่นๆ และ จำหน่าย SRC เว็บ เปิดบริการตลอด24.ซม ⏰</title>
-	<link rel="canonical" href="https://lucky.4hr.shop" />
     <link rel="shortcut icon" href="https://4hr.shop/assets/img/logo_1.png" type="image/png" sizes="15x15">
     <link rel="stylesheet" href="system/css/second.css">
-    <link href="npm/bootstrap-5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="1.13.4/css/jquery.dataTables.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
     <script src="//cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
      <link rel="stylesheet" href="system/gshake/css/box.css">
     <link href="https://kit-pro.fontawesome.com/releases/v6.2.0/css/pro.min.css" rel="stylesheet">
@@ -43,20 +54,24 @@
         .owl-items {
             max-width: 220px;
             max-height: 220px;
+
         }
+
         .owl-items img {
             border-radius: 25px !important;
             animation: glow 2s infinite ease-in-out;
         }
     </style>
 </head>
+
 <body style="background-color: #F4FEFF!important;">
 <nav class="navbar navbar-expand-lg navbar-light bg-white mt-0 shadow-sm mb-0">
         <div class="container-sm pt-0 pb-0 ps-4 pe-4 ">
-        	<a class="navbar-brand" href="page-home.html"><img src="https://lucky.4hr.shop/assets/img/menu_No1.png" height="75px" width="auto"></a>
+        	<a class="navbar-brand" href="?page=home"><img src="https://lucky.4hr.shop/assets/img/menu_No1.png" height="75px" width="auto"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 	<br>
                                    <!-- <li class="nav-item align-self-center ms-lg-3">
@@ -67,34 +82,56 @@
                 	<ul class="navbar-nav me-auto ms-auto">
                     <li class="nav-item">
                     	<br><br>
-                        <a class="btn btn-dark hvr-icon-up" href="page-login.html"><i class="fa-solid fa-user-lock hvr-icon"></i> เข้าสู่ระบบ</a>
-                        <a class="btn btn-dark hvr-icon-up" href="page-register.html"><i class="fa-solid fa-user-plus hvr-icon"></i> สมัครสมาชิก</a>
+                        <a class="btn btn-dark hvr-icon-up" href="?page=login"><i class="fa-solid fa-user-lock hvr-icon"></i> เข้าสู่ระบบ</a>
+                        <a class="btn btn-dark hvr-icon-up" href="?page=register"><i class="fa-solid fa-user-plus hvr-icon"></i> สมัครสมาชิก</a>
                         <br>
                     </li>
                	 </ul>
                 	</center>
+                
+
             </div>
         </div>
     </nav>
     <br>
+
+    
+	
 <html lang="en">
+	
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 <!-- Vendor CSS Files -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
     <!-- Template Main CSS File -->
     <link href="assets/css/style.min.css" rel="stylesheet">
+ 
+
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
+
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <!-- <script src='https://www.google.com/recaptcha/api.js?hl=th'></script> -->
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha" async defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" referrerpolicy="no-referrer"></script>
+
+
+	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- <link rel="stylesheet" href="system/gshake/css/box.css"> -->
     <link href="https://kit-pro.fontawesome.com/releases/v6.2.0/css/pro.min.css" rel="stylesheet">
+
     <style>
 .badge {
     display: inline-block;
@@ -131,6 +168,7 @@
     color: rgb(0 0 0 / 55%);
     border-color: rgb(113 110 110 / 10%);
 }
+	
         body {
             font-family: 'Kanit', sans-serif !important;
             min-height: 100%;
@@ -147,31 +185,40 @@
             background-size: cover !important;
             /* background: rgb(62,31,83); */
             /* background: linear-gradient(90deg, rgba(62,31,83,1) 0%, rgba(73,14,119,1) 50%, rgba(50,3,49,1) 89%); */
+
         }
+
         @media (max-width: 767px) {
             .navbar {
                 background-color: #3498db; /* Change to your preferred background color */
             }
         }
+
         .card-hover-bg:hover {
             background-color: rgb(240, 240, 240);
         }
+
         .list-group-item {
             padding: 20px 20px;
         }
+
         canvas {
             width: 100%;
             height: 100%;
         }
+
         .table-responsive {
             overflow-x: visible !important;
         }
+
         .fb-detail {
             background-color: #fafafa;
         }
+
         .pointer {
             cursor: pointer;
         }
+
         button.acc-btn {
             /* create a grid */
             display: grid;
@@ -180,6 +227,7 @@
             align-items: center;
             grid-gap: 10px;
         }
+
         .background {
             position: absolute;
             top: 0;
@@ -188,28 +236,40 @@
             right: 0;
             z-index: -1;
         }
+
         .owl-carousel .owl-stage{display: flex;}
         .aticle-box {height:360px;}
+
         body::-webkit-scrollbar {
             width: 5px;               /* width of the entire scrollbar */
         }
+
         body::-webkit-scrollbar-track {
             background: #696969;        /* color of the tracking area */
         }
+
         body::-webkit-scrollbar-thumb {
             background-color: #9655F9;    /* color of the scroll thumb */
             border-radius: 2px;       /* roundness of the scroll thumb */
         }
+
         .nav.navbar-nav.navbar-right li a {
             color: white;
         }
+
         /* Custom CSS */
             @media (max-width: 767px) {
             .navbar-nav .nav-link {
                 color: #000000; /* Change to your preferred font color */
             }
             }
+
+
     </style>
+
+
+
+    
 </head>
 <style>
     .underline-active {
@@ -229,6 +289,7 @@
         width: 100%;
     }
 </style>
+
     <style>
      :root {
             --main: #000000;
@@ -237,8 +298,10 @@
             --sub-opa-25: #000000;
         }
     </style>
+
 		<style>
 .modal {
+
     background-color: rgb(0 0 0 / 81%);
 }
 .modal-backdrop {
@@ -280,7 +343,9 @@ a:-webkit-any-link {
         .owl-items {
             max-width: 220px;
             max-height: 220px;
+
         }
+
         .owl-items img {
             border-radius: 25px !important;
             animation: glow 2s infinite ease-in-out;
@@ -311,6 +376,7 @@ a:-webkit-any-link {
     border-radius: 3vh;
     background-image: linear-gradient(to right, var(--main), var(--sub));
      }
+	 
 	.wichxz {
     padding: 10px;
     border-radius: 5vh;
@@ -327,7 +393,9 @@ a:-webkit-any-link {
     border-color:  var(--main);
 }
 .btn--nottify:after {
+
     content: '1';
+
     display: inline-block;
     font-size: 0.40rem;
     color: #;
@@ -341,8 +409,12 @@ a:-webkit-any-link {
     margin-right: 1rem!important;
 }
     </style>
+
 </head>
+ 
  <body style="background-color: #f8fafd!important;">
+
+
 <script type="text/javascript">
 $(document).ready(function () {
 $('#sidebarCollapse').on('click', function () {
@@ -350,6 +422,7 @@ $('#sidebar').toggleClass('aside-toggled');
 });
 });
 </script>
+
 <script type="text/javascript">
 $(document).ready(function () {
 $('#sidebarCollapse').on('click', function () {
@@ -357,28 +430,36 @@ $('#sidebuy').toggleClass('active');
 });
 });
 </script>
+
 <div class="container">
 <div class="row">
+
+    
+
 <style>
     .shops {
         padding: 20px;
         border-radius: 1vh;
     }
+
     .shops-body {
         position: relative;
         color: #fff;
         font-weight: 600;
         height: 100%;
     }
+
     .shops-body>.shops-img {
         width: 100%;
         height: 100%;
         border-radius: 1vh;
         transition: all .5s ease;
     }
+
     .shops-body>.shops-img:hover {
         transform: scale(1.035);
     }
+
     .shops-body>.shops-text-center {
         position: absolute;
         top: 80%;
@@ -387,6 +468,7 @@ $('#sidebuy').toggleClass('active');
         opacity: 0;
         transition: all .5s ease;
     }
+
     .shops-body:hover>.shops-text-center {
         left: 50%;
         opacity: 1;
@@ -404,9 +486,11 @@ $('#sidebuy').toggleClass('active');
 .ml-1, .mx-1 {
     margin-left: 0.25rem!important;
 }
+
 .mt-1, .my-1 {
     margin-top: 0.25rem!important;
 }
+
 .badge-danger {
     color: #fff;
     background-color: #dc3545;
@@ -419,7 +503,9 @@ $('#sidebuy').toggleClass('active');
     color: #fff;
     background-color: #28a745;
 }
+
 </style>
+
 <div class="container-fluid col-lg-8 mt-1 p-0 ">
         <div class="container p-3 pt-0 pb-0 m-cent">
             <div id="carouselExampleControls" class="carousel slide border-spe" data-bs-ride="carousel" style="border-radius: 1vh; border:none;">
@@ -439,7 +525,9 @@ $('#sidebuy').toggleClass('active');
             </div>
         </div>
     </div>
+    
 		<div class="col-md-12 col-sm-12 mt-2 mb-2 aos-init aos-animate" data-aos="fade-up">
+			
 		<div class="bg-white mt-3">
     	<div class="my-1">
         	<div class="input-group">
@@ -449,38 +537,57 @@ $('#sidebuy').toggleClass('active');
             	<marquee class="form-control"> <b><center>  LUCKYSHOP | จำหน่าย YouTube Premium Netflixราคาถูกเริ่มต้น 14฿ เปิดให้บริการตลอด 24.ซม ⏰  </center> </b></marquee>
        	 </div>
    	 </div>
+	
+
+  
     </div>
+
 	 <div class="rounded-6 border border-2 mt-3" style="background-color: #FFFFFF;" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="1500">
       <div class="bg-white mt-3">
 	   <div class="ps-4"><span><b><i class="fa-duotone fa-shopping-bag fa-beat" aria-hidden="true"></i> รายการสั่งซื้อ </b> <span style="color:#999;font-size: 75%; ">(ล่าสุด)</span></span></div>
 	<marquee direction="left">
 <div class=" d-flex flex-row ">
+
+
 <div style="background-color: #ffffff;font-size: 60%" class=" d-flex mr-5 mt-3"> <br>  
 <img class="img-fluid rounded" style="margin:0 auto;  height: 50px;" src="https://img_app.byshop.me/buy/img/img_app/Ne.png">
 <span><b>&nbsp;&nbsp;&nbsp;Netflix 4K /30วัน (จอแชร์)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
 <br>&nbsp;&nbsp;&nbsp;2024-07-31 17:53:27<br>
 <b><p style="font-size: 13px">&nbsp;&nbsp;<span class="rounded-pill badge bg-success">&nbsp;&nbsp;<i class="fa fa-check-circle" aria-hidden="true"></i> ขายแล้ว !! &nbsp;&nbsp;</span></b></p>
 </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+						
+
 <div style="background-color: #ffffff;font-size: 60%" class=" d-flex mr-5 mt-3"> <br>  
 <img class="img-fluid rounded" style="margin:0 auto;  height: 50px;" src="https://img_app.byshop.me/buy/img/img_app/We.png">
 <span><b>&nbsp;&nbsp;&nbsp;WeTV VIP /30วัน&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
 <br>&nbsp;&nbsp;&nbsp;2024-07-30 22:43:38<br>
 <b><p style="font-size: 13px">&nbsp;&nbsp;<span class="rounded-pill badge bg-success">&nbsp;&nbsp;<i class="fa fa-check-circle" aria-hidden="true"></i> ขายแล้ว !! &nbsp;&nbsp;</span></b></p>
 </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+						
+
 <div style="background-color: #ffffff;font-size: 60%" class=" d-flex mr-5 mt-3"> <br>  
 <img class="img-fluid rounded" style="margin:0 auto;  height: 50px;" src="https://img_app.byshop.me/buy/img/img_app/Yo.png">
-<span><b>&nbsp;&nbsp;&nbsp;Youtube Premium/30วัน (เมลตัวเอง)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+<span><b>&nbsp;&nbsp;&nbsp;Youtube Premium/30วัน (เมลตัวเอง)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
 <br>&nbsp;&nbsp;&nbsp;2024-07-30 16:01:11<br>
 <b><p style="font-size: 13px">&nbsp;&nbsp;<span class="rounded-pill badge bg-success">&nbsp;&nbsp;<i class="fa fa-check-circle" aria-hidden="true"></i> ขายแล้ว !! &nbsp;&nbsp;</span></b></p>
 </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+						
+
 <div style="background-color: #ffffff;font-size: 60%" class=" d-flex mr-5 mt-3"> <br>  
 <img class="img-fluid rounded" style="margin:0 auto;  height: 50px;" src="https://img_app.byshop.me/buy/img/img_app/.png">
 <span><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
 <br>&nbsp;&nbsp;&nbsp;<br>
 <b><p style="font-size: 13px">&nbsp;&nbsp;<span class="rounded-pill badge bg-success">&nbsp;&nbsp;<i class="fa fa-check-circle" aria-hidden="true"></i> ขายแล้ว !! &nbsp;&nbsp;</span></b></p>
 </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+						
+
     </marquee>        
+
+	
 </div></div>
+
+
+
     <!-- หมวดหมู่แนะนำ -->
   <!-- <div class="container-sm p-4">
          <div class="row justiy-content-center  justify-content-lg-between">
@@ -498,6 +605,7 @@ $('#sidebuy').toggleClass('active');
                     width: 100%;
                     max-width: 250px;
                 }
+
                 @media only screen and (max-width: 1000px) {
                     .cc {
                         width: 100%;
@@ -514,10 +622,12 @@ $('#sidebuy').toggleClass('active');
     </div>
 -->
     <!-- สินค้าแนะนำ -->
+    
 	 <div class="rounded-6 border border-2 mt-3" style="background-color: #FFFFFF;" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="1500">
       <div class="bg-white mt-3">
    <div class="ps-4 col-12 row justify-content-center justify-content-lg-start">
    <span><b><i class="fa-duotone fa-signal-stream fa-beat" aria-hidden="true"></i> แอพสตรีมมิ่ง </b> <span style="color:#999;font-size: 75%; ">(ยอดฮิต)</span></span>
+      
          <div class="col-6 col-lg-3 show-product-col mt-3">
 	                <a>
 				<div class="card-body border border-2 shadow-sm p-0 text-white card-body" style="border-radius: 10px;">
@@ -532,12 +642,15 @@ $('#sidebuy').toggleClass('active');
 	.ez {border-radius: 20px;}
 </style >
 <br>
+
+
+						
 						<!--<div class="col-12 col-lg-3 mb-4 cc aos-init aos-animate" data-aos="zoom-in">
 							<div class="card-anim-main bg-glass border-ys shadow p-1" style="border-radius: 1vh; height: fit-content;">
 								<div class="container-fluid p-0 ">
-									<a href="page-buyapp-id-2.html">
+									<a href="?page=buyapp&amp;id=2">
 									</a>
-									<div class="view overlay"><a href="page-buyapp-id-2.html">
+									<div class="view overlay"><a href="?page=buyapp&amp;id=2">
 										<center>
 											<img class="img-fluid " src="https://img_app.byshop.me/api/img/app/netflix.png" style="border-radius: 1vh; width: 100%; max-width: 100vh;">
 										</center>
@@ -551,13 +664,14 @@ $('#sidebuy').toggleClass('active');
 											<p class="text-main  align-self-center m-0 "><strong>33 บาท</strong></p>
 										</div>
 										<center>
-											<a href="page-buyapp-id-2.html" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
+											<a href="?page=buyapp&amp;id=2" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
 											<p class=" m-0" style="width: fit-content;">สินค้าคงเหลือ 0 ชิ้น</p>
 										</center>
 									</div>
 								</div>
 							</div>
 						</div>	-->
+
 						<!--<div class="col-md-3 col-sm-12 col-12 px-2 d-flex align-items-stretch hvr-float pointer">
 							<div class="card crad_tung mb-3 card_new w-100 aos-init aos-animate" style="border-radius: 10px;" data-aos="fade-up">
 								<center><img src="https://img_app.byshop.me/api/img/app/netflix.png" class="p-4" style="width:11.1rem;"></center>
@@ -573,15 +687,17 @@ $('#sidebuy').toggleClass('active');
 																	</div>
 							</div>
 						</div>-->
+                    	
 					<center>
                        <img src="https://img_app.byshop.me/api/img/app/netflix.png" width="75" height="75" style="border-radius: 50%; border: 2px solid #000000!important;"><br>
 						<font size="2" color="000" class="mt-2"><b> Netflix 4K /7วัน (จอส่วนตัว) </b></font><br>
 												<font size="1" color="000" class="mt-2"><b><span class="badge badge-c"><font color="ffffff" size="2"><i class="fa fa-spinner fa-spin"></i> สินค้าหมด</font></span></b></font><br/>
 												 <font size="3" color="000" class="mt-2"><i class='bx bx-coin-stack'></i> ราคา : 33.00฿ </font><br/>
-						<a href="page-buyapp-id-2.html"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
+						<a href="?page=buyapp&amp;id=2"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
 						<br>
 						                       </center> </div>
         </div></a></div>      
+        
         <div class="col-6 col-lg-3 show-product-col mt-3">
 	                <a>
 				<div class="card-body border border-2 shadow-sm p-0 text-white card-body" style="border-radius: 10px;">
@@ -596,12 +712,15 @@ $('#sidebuy').toggleClass('active');
 	.ez {border-radius: 20px;}
 </style >
 <br>
+
+
+						
 						<!--<div class="col-12 col-lg-3 mb-4 cc aos-init aos-animate" data-aos="zoom-in">
 							<div class="card-anim-main bg-glass border-ys shadow p-1" style="border-radius: 1vh; height: fit-content;">
 								<div class="container-fluid p-0 ">
-									<a href="page-buyapp-id-3.html">
+									<a href="?page=buyapp&amp;id=3">
 									</a>
-									<div class="view overlay"><a href="page-buyapp-id-3.html">
+									<div class="view overlay"><a href="?page=buyapp&amp;id=3">
 										<center>
 											<img class="img-fluid " src="https://img_app.byshop.me/api/img/app/netflix.png" style="border-radius: 1vh; width: 100%; max-width: 100vh;">
 										</center>
@@ -615,13 +734,14 @@ $('#sidebuy').toggleClass('active');
 											<p class="text-main  align-self-center m-0 "><strong>73 บาท</strong></p>
 										</div>
 										<center>
-											<a href="page-buyapp-id-3.html" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
+											<a href="?page=buyapp&amp;id=3" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
 											<p class=" m-0" style="width: fit-content;">สินค้าคงเหลือ 0 ชิ้น</p>
 										</center>
 									</div>
 								</div>
 							</div>
 						</div>	-->
+
 						<!--<div class="col-md-3 col-sm-12 col-12 px-2 d-flex align-items-stretch hvr-float pointer">
 							<div class="card crad_tung mb-3 card_new w-100 aos-init aos-animate" style="border-radius: 10px;" data-aos="fade-up">
 								<center><img src="https://img_app.byshop.me/api/img/app/netflix.png" class="p-4" style="width:11.1rem;"></center>
@@ -637,15 +757,17 @@ $('#sidebuy').toggleClass('active');
 																	</div>
 							</div>
 						</div>-->
+                    	
 					<center>
                        <img src="https://img_app.byshop.me/api/img/app/netflix.png" width="75" height="75" style="border-radius: 50%; border: 2px solid #000000!important;"><br>
 						<font size="2" color="000" class="mt-2"><b> Netflix 4K /30วัน (จอแชร์) </b></font><br>
 												<font size="1" color="000" class="mt-2"><b><span class="badge badge-c"><font color="ffffff" size="2"><i class="fa fa-spinner fa-spin"></i> สินค้าหมด</font></span></b></font><br/>
 												 <font size="3" color="000" class="mt-2"><i class='bx bx-coin-stack'></i> ราคา : 73.00฿ </font><br/>
-						<a href="page-buyapp-id-3.html"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
+						<a href="?page=buyapp&amp;id=3"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
 						<br>
 						                       </center> </div>
         </div></a></div>      
+        
         <div class="col-6 col-lg-3 show-product-col mt-3">
 	                <a>
 				<div class="card-body border border-2 shadow-sm p-0 text-white card-body" style="border-radius: 10px;">
@@ -660,12 +782,15 @@ $('#sidebuy').toggleClass('active');
 	.ez {border-radius: 20px;}
 </style >
 <br>
+
+
+						
 						<!--<div class="col-12 col-lg-3 mb-4 cc aos-init aos-animate" data-aos="zoom-in">
 							<div class="card-anim-main bg-glass border-ys shadow p-1" style="border-radius: 1vh; height: fit-content;">
 								<div class="container-fluid p-0 ">
-									<a href="page-buyapp-id-6.html">
+									<a href="?page=buyapp&amp;id=6">
 									</a>
-									<div class="view overlay"><a href="page-buyapp-id-6.html">
+									<div class="view overlay"><a href="?page=buyapp&amp;id=6">
 										<center>
 											<img class="img-fluid " src="https://img_app.byshop.me/api/img/app/yt.png" style="border-radius: 1vh; width: 100%; max-width: 100vh;">
 										</center>
@@ -674,23 +799,24 @@ $('#sidebuy').toggleClass('active');
 										</a>
 									</div>
 									<div class="card-body p-3 pt-3 pb-1">
-										<h5 class="  text-strongest mb-1" style="word-wrap: break-word;">Youtube Premium/30วัน (เมลร้าน)</h5>
+										<h5 class="  text-strongest mb-1" style="word-wrap: break-word;">Youtube Premium/30วัน (เมลร้าน)</h5>
 										<div class="d-flex justify-content-between">
 											<p class="text-main  align-self-center m-0 "><strong>14 บาท</strong></p>
 										</div>
 										<center>
-											<a href="page-buyapp-id-6.html" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
+											<a href="?page=buyapp&amp;id=6" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
 											<p class=" m-0" style="width: fit-content;">สินค้าคงเหลือ 0 ชิ้น</p>
 										</center>
 									</div>
 								</div>
 							</div>
 						</div>	-->
+
 						<!--<div class="col-md-3 col-sm-12 col-12 px-2 d-flex align-items-stretch hvr-float pointer">
 							<div class="card crad_tung mb-3 card_new w-100 aos-init aos-animate" style="border-radius: 10px;" data-aos="fade-up">
 								<center><img src="https://img_app.byshop.me/api/img/app/yt.png" class="p-4" style="width:11.1rem;"></center>
 								<div class="card-body d-flex flex-column text-dark">
-									<h5>Youtube Premium/30วัน (เมลร้าน)</h5>
+									<h5>Youtube Premium/30วัน (เมลร้าน)</h5>
 									<small><i class="fa fa-info-circle fa-lg"></i> สินค้าพรีเมี่ยม </small>
 									<small><i class="fa fa-shopping-basket"></i> คงเหลือ 0 ชิ้น</small>
 									<small><i class="fa-regular fa-clock"></i> สถานะ สินค้าหมด</small>
@@ -701,15 +827,17 @@ $('#sidebuy').toggleClass('active');
 																	</div>
 							</div>
 						</div>-->
+                    	
 					<center>
                        <img src="https://img_app.byshop.me/api/img/app/yt.png" width="75" height="75" style="border-radius: 50%; border: 2px solid #000000!important;"><br>
-						<font size="2" color="000" class="mt-2"><b> Youtube Premium/30วัน (เมลร้าน) </b></font><br>
+						<font size="2" color="000" class="mt-2"><b> Youtube Premium/30วัน (เมลร้าน) </b></font><br>
 												<font size="1" color="000" class="mt-2"><b><span class="badge badge-c"><font color="ffffff" size="2"><i class="fa fa-spinner fa-spin"></i> สินค้าหมด</font></span></b></font><br/>
 												 <font size="3" color="000" class="mt-2"><i class='bx bx-coin-stack'></i> ราคา : 14.00฿ </font><br/>
-						<a href="page-buyapp-id-6.html"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
+						<a href="?page=buyapp&amp;id=6"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
 						<br>
 						                       </center> </div>
         </div></a></div>      
+        
         <div class="col-6 col-lg-3 show-product-col mt-3">
 	                <a>
 				<div class="card-body border border-2 shadow-sm p-0 text-white card-body" style="border-radius: 10px;">
@@ -724,12 +852,15 @@ $('#sidebuy').toggleClass('active');
 	.ez {border-radius: 20px;}
 </style >
 <br>
+
+
+						
 						<!--<div class="col-12 col-lg-3 mb-4 cc aos-init aos-animate" data-aos="zoom-in">
 							<div class="card-anim-main bg-glass border-ys shadow p-1" style="border-radius: 1vh; height: fit-content;">
 								<div class="container-fluid p-0 ">
-									<a href="page-buyapp-id-7.html">
+									<a href="?page=buyapp&amp;id=7">
 									</a>
-									<div class="view overlay"><a href="page-buyapp-id-7.html">
+									<div class="view overlay"><a href="?page=buyapp&amp;id=7">
 										<center>
 											<img class="img-fluid " src="https://img_app.byshop.me/api/img/app/yt.png" style="border-radius: 1vh; width: 100%; max-width: 100vh;">
 										</center>
@@ -738,23 +869,24 @@ $('#sidebuy').toggleClass('active');
 										</a>
 									</div>
 									<div class="card-body p-3 pt-3 pb-1">
-										<h5 class="  text-strongest mb-1" style="word-wrap: break-word;">Youtube Premium/30วัน (เมลตัวเอง)</h5>
+										<h5 class="  text-strongest mb-1" style="word-wrap: break-word;">Youtube Premium/30วัน (เมลตัวเอง)</h5>
 										<div class="d-flex justify-content-between">
 											<p class="text-main  align-self-center m-0 "><strong>14 บาท</strong></p>
 										</div>
 										<center>
-											<a href="page-buyapp-id-7.html" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
+											<a href="?page=buyapp&amp;id=7" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
 											<p class=" m-0" style="width: fit-content;">สินค้าคงเหลือ 0 ชิ้น</p>
 										</center>
 									</div>
 								</div>
 							</div>
 						</div>	-->
+
 						<!--<div class="col-md-3 col-sm-12 col-12 px-2 d-flex align-items-stretch hvr-float pointer">
 							<div class="card crad_tung mb-3 card_new w-100 aos-init aos-animate" style="border-radius: 10px;" data-aos="fade-up">
 								<center><img src="https://img_app.byshop.me/api/img/app/yt.png" class="p-4" style="width:11.1rem;"></center>
 								<div class="card-body d-flex flex-column text-dark">
-									<h5>Youtube Premium/30วัน (เมลตัวเอง)</h5>
+									<h5>Youtube Premium/30วัน (เมลตัวเอง)</h5>
 									<small><i class="fa fa-info-circle fa-lg"></i> สินค้าพรีเมี่ยม </small>
 									<small><i class="fa fa-shopping-basket"></i> คงเหลือ 0 ชิ้น</small>
 									<small><i class="fa-regular fa-clock"></i> สถานะ สินค้าหมด</small>
@@ -765,15 +897,17 @@ $('#sidebuy').toggleClass('active');
 																	</div>
 							</div>
 						</div>-->
+                    	
 					<center>
                        <img src="https://img_app.byshop.me/api/img/app/yt.png" width="75" height="75" style="border-radius: 50%; border: 2px solid #000000!important;"><br>
-						<font size="2" color="000" class="mt-2"><b> Youtube Premium/30วัน (เมลตัวเอง) </b></font><br>
+						<font size="2" color="000" class="mt-2"><b> Youtube Premium/30วัน (เมลตัวเอง) </b></font><br>
 												<font size="1" color="000" class="mt-2"><b><span class="badge badge-c"><font color="ffffff" size="2"><i class="fa fa-spinner fa-spin"></i> สินค้าหมด</font></span></b></font><br/>
 												 <font size="3" color="000" class="mt-2"><i class='bx bx-coin-stack'></i> ราคา : 14.00฿ </font><br/>
-						<a href="page-buyapp-id-7.html"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
+						<a href="?page=buyapp&amp;id=7"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
 						<br>
 						                       </center> </div>
         </div></a></div>      
+        
         <div class="col-6 col-lg-3 show-product-col mt-3">
 	                <a>
 				<div class="card-body border border-2 shadow-sm p-0 text-white card-body" style="border-radius: 10px;">
@@ -788,12 +922,15 @@ $('#sidebuy').toggleClass('active');
 	.ez {border-radius: 20px;}
 </style >
 <br>
+
+
+						
 						<!--<div class="col-12 col-lg-3 mb-4 cc aos-init aos-animate" data-aos="zoom-in">
 							<div class="card-anim-main bg-glass border-ys shadow p-1" style="border-radius: 1vh; height: fit-content;">
 								<div class="container-fluid p-0 ">
-									<a href="page-buyapp-id-12.html">
+									<a href="?page=buyapp&amp;id=12">
 									</a>
-									<div class="view overlay"><a href="page-buyapp-id-12.html">
+									<div class="view overlay"><a href="?page=buyapp&amp;id=12">
 										<center>
 											<img class="img-fluid " src="https://img_app.byshop.me/api/img/app/viu.png" style="border-radius: 1vh; width: 100%; max-width: 100vh;">
 										</center>
@@ -807,13 +944,14 @@ $('#sidebuy').toggleClass('active');
 											<p class="text-main  align-self-center m-0 "><strong>19 บาท</strong></p>
 										</div>
 										<center>
-											<a href="page-buyapp-id-12.html" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
+											<a href="?page=buyapp&amp;id=12" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
 											<p class=" m-0" style="width: fit-content;">สินค้าคงเหลือ 23 ชิ้น</p>
 										</center>
 									</div>
 								</div>
 							</div>
 						</div>	-->
+
 						<!--<div class="col-md-3 col-sm-12 col-12 px-2 d-flex align-items-stretch hvr-float pointer">
 							<div class="card crad_tung mb-3 card_new w-100 aos-init aos-animate" style="border-radius: 10px;" data-aos="fade-up">
 								<center><img src="https://img_app.byshop.me/api/img/app/viu.png" class="p-4" style="width:11.1rem;"></center>
@@ -825,19 +963,21 @@ $('#sidebuy').toggleClass('active');
 								</div>
 								<div class="p-2">
 									<h6 class="text-dark">$ราคา 19.00฿ บาท</h6>		
-																			<a href="page-buyapp-id-12.html"><button class="btn bg-success text-white w-100 mb-2" style="border-radius: 10px;">สั่งซื้อ (19.00฿ บาท)</button></a>
+																			<a href="?page=buyapp&amp;id=12"><button class="btn bg-success text-white w-100 mb-2" style="border-radius: 10px;">สั่งซื้อ (19.00฿ บาท)</button></a>
 																	</div>
 							</div>
 						</div>-->
+                    	
 					<center>
                        <img src="https://img_app.byshop.me/api/img/app/viu.png" width="75" height="75" style="border-radius: 50%; border: 2px solid #000000!important;"><br>
 						<font size="2" color="000" class="mt-2"><b> VIU Premium/30วัน </b></font><br>
 												<font size="1" color="000" class="mt-2"><b><span class="badge badge-e"><font color="ffffff" size="2"><i class="fas fa-check-circle"></i> เหลือ 23 ชิ้น</font></span></b></font><br/>
 												 <font size="3" color="000" class="mt-2"><i class='bx bx-coin-stack'></i> ราคา : 19.00฿ </font><br/>
-						<a href="page-buyapp-id-12.html"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
+						<a href="?page=buyapp&amp;id=12"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
 						<br>
 						                       </center> </div>
         </div></a></div>      
+        
         <div class="col-6 col-lg-3 show-product-col mt-3">
 	                <a>
 				<div class="card-body border border-2 shadow-sm p-0 text-white card-body" style="border-radius: 10px;">
@@ -852,12 +992,15 @@ $('#sidebuy').toggleClass('active');
 	.ez {border-radius: 20px;}
 </style >
 <br>
+
+
+						
 						<!--<div class="col-12 col-lg-3 mb-4 cc aos-init aos-animate" data-aos="zoom-in">
 							<div class="card-anim-main bg-glass border-ys shadow p-1" style="border-radius: 1vh; height: fit-content;">
 								<div class="container-fluid p-0 ">
-									<a href="page-buyapp-id-22.html">
+									<a href="?page=buyapp&amp;id=22">
 									</a>
-									<div class="view overlay"><a href="page-buyapp-id-22.html">
+									<div class="view overlay"><a href="?page=buyapp&amp;id=22">
 										<center>
 											<img class="img-fluid " src="https://img_app.byshop.me/api/img/app/netflix.png" style="border-radius: 1vh; width: 100%; max-width: 100vh;">
 										</center>
@@ -871,13 +1014,14 @@ $('#sidebuy').toggleClass('active');
 											<p class="text-main  align-self-center m-0 "><strong>9 บาท</strong></p>
 										</div>
 										<center>
-											<a href="page-buyapp-id-22.html" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
+											<a href="?page=buyapp&amp;id=22" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
 											<p class=" m-0" style="width: fit-content;">สินค้าคงเหลือ 0 ชิ้น</p>
 										</center>
 									</div>
 								</div>
 							</div>
 						</div>	-->
+
 						<!--<div class="col-md-3 col-sm-12 col-12 px-2 d-flex align-items-stretch hvr-float pointer">
 							<div class="card crad_tung mb-3 card_new w-100 aos-init aos-animate" style="border-radius: 10px;" data-aos="fade-up">
 								<center><img src="https://img_app.byshop.me/api/img/app/netflix.png" class="p-4" style="width:11.1rem;"></center>
@@ -893,15 +1037,17 @@ $('#sidebuy').toggleClass('active');
 																	</div>
 							</div>
 						</div>-->
+                    	
 					<center>
                        <img src="https://img_app.byshop.me/api/img/app/netflix.png" width="75" height="75" style="border-radius: 50%; border: 2px solid #000000!important;"><br>
 						<font size="2" color="000" class="mt-2"><b> Netflix 4K /1วัน (จอแชร์) </b></font><br>
 												<font size="1" color="000" class="mt-2"><b><span class="badge badge-c"><font color="ffffff" size="2"><i class="fa fa-spinner fa-spin"></i> สินค้าหมด</font></span></b></font><br/>
 												 <font size="3" color="000" class="mt-2"><i class='bx bx-coin-stack'></i> ราคา : 9.00฿ </font><br/>
-						<a href="page-buyapp-id-22.html"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
+						<a href="?page=buyapp&amp;id=22"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
 						<br>
 						                       </center> </div>
         </div></a></div>      
+        
         <div class="col-6 col-lg-3 show-product-col mt-3">
 	                <a>
 				<div class="card-body border border-2 shadow-sm p-0 text-white card-body" style="border-radius: 10px;">
@@ -916,12 +1062,15 @@ $('#sidebuy').toggleClass('active');
 	.ez {border-radius: 20px;}
 </style >
 <br>
+
+
+						
 						<!--<div class="col-12 col-lg-3 mb-4 cc aos-init aos-animate" data-aos="zoom-in">
 							<div class="card-anim-main bg-glass border-ys shadow p-1" style="border-radius: 1vh; height: fit-content;">
 								<div class="container-fluid p-0 ">
-									<a href="page-buyapp-id-33.html">
+									<a href="?page=buyapp&amp;id=33">
 									</a>
-									<div class="view overlay"><a href="page-buyapp-id-33.html">
+									<div class="view overlay"><a href="?page=buyapp&amp;id=33">
 										<center>
 											<img class="img-fluid " src="https://img_app.byshop.me/api/img/app/oned.png" style="border-radius: 1vh; width: 100%; max-width: 100vh;">
 										</center>
@@ -935,13 +1084,14 @@ $('#sidebuy').toggleClass('active');
 											<p class="text-main  align-self-center m-0 "><strong>43 บาท</strong></p>
 										</div>
 										<center>
-											<a href="page-buyapp-id-33.html" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
+											<a href="?page=buyapp&amp;id=33" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
 											<p class=" m-0" style="width: fit-content;">สินค้าคงเหลือ 1 ชิ้น</p>
 										</center>
 									</div>
 								</div>
 							</div>
 						</div>	-->
+
 						<!--<div class="col-md-3 col-sm-12 col-12 px-2 d-flex align-items-stretch hvr-float pointer">
 							<div class="card crad_tung mb-3 card_new w-100 aos-init aos-animate" style="border-radius: 10px;" data-aos="fade-up">
 								<center><img src="https://img_app.byshop.me/api/img/app/oned.png" class="p-4" style="width:11.1rem;"></center>
@@ -953,19 +1103,21 @@ $('#sidebuy').toggleClass('active');
 								</div>
 								<div class="p-2">
 									<h6 class="text-dark">$ราคา 43.00฿ บาท</h6>		
-																			<a href="page-buyapp-id-33.html"><button class="btn bg-success text-white w-100 mb-2" style="border-radius: 10px;">สั่งซื้อ (43.00฿ บาท)</button></a>
+																			<a href="?page=buyapp&amp;id=33"><button class="btn bg-success text-white w-100 mb-2" style="border-radius: 10px;">สั่งซื้อ (43.00฿ บาท)</button></a>
 																	</div>
 							</div>
 						</div>-->
+                    	
 					<center>
                        <img src="https://img_app.byshop.me/api/img/app/oned.png" width="75" height="75" style="border-radius: 50%; border: 2px solid #000000!important;"><br>
 						<font size="2" color="000" class="mt-2"><b> oneD /30วัน </b></font><br>
 												<font size="1" color="000" class="mt-2"><b><span class="badge badge-e"><font color="ffffff" size="2"><i class="fas fa-check-circle"></i> เหลือ 1 ชิ้น</font></span></b></font><br/>
 												 <font size="3" color="000" class="mt-2"><i class='bx bx-coin-stack'></i> ราคา : 43.00฿ </font><br/>
-						<a href="page-buyapp-id-33.html"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
+						<a href="?page=buyapp&amp;id=33"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
 						<br>
 						                       </center> </div>
         </div></a></div>      
+        
         <div class="col-6 col-lg-3 show-product-col mt-3">
 	                <a>
 				<div class="card-body border border-2 shadow-sm p-0 text-white card-body" style="border-radius: 10px;">
@@ -980,12 +1132,15 @@ $('#sidebuy').toggleClass('active');
 	.ez {border-radius: 20px;}
 </style >
 <br>
+
+
+						
 						<!--<div class="col-12 col-lg-3 mb-4 cc aos-init aos-animate" data-aos="zoom-in">
 							<div class="card-anim-main bg-glass border-ys shadow p-1" style="border-radius: 1vh; height: fit-content;">
 								<div class="container-fluid p-0 ">
-									<a href="page-buyapp-id-24.html">
+									<a href="?page=buyapp&amp;id=24">
 									</a>
-									<div class="view overlay"><a href="page-buyapp-id-24.html">
+									<div class="view overlay"><a href="?page=buyapp&amp;id=24">
 										<center>
 											<img class="img-fluid " src="https://img_app.byshop.me/api/img/app/&n.png" style="border-radius: 1vh; width: 100%; max-width: 100vh;">
 										</center>
@@ -999,13 +1154,14 @@ $('#sidebuy').toggleClass('active');
 											<p class="text-main  align-self-center m-0 "><strong>33 บาท</strong></p>
 										</div>
 										<center>
-											<a href="page-buyapp-id-24.html" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
+											<a href="?page=buyapp&amp;id=24" class="btn bg-main w-100  mb-2" style="border-radius: 50px;"><i class="fa-regular fa-shopping-basket"></i>&nbsp;สั่งซื้อตอนนี้เลย</a>
 											<p class=" m-0" style="width: fit-content;">สินค้าคงเหลือ 4 ชิ้น</p>
 										</center>
 									</div>
 								</div>
 							</div>
 						</div>	-->
+
 						<!--<div class="col-md-3 col-sm-12 col-12 px-2 d-flex align-items-stretch hvr-float pointer">
 							<div class="card crad_tung mb-3 card_new w-100 aos-init aos-animate" style="border-radius: 10px;" data-aos="fade-up">
 								<center><img src="https://img_app.byshop.me/api/img/app/&n.png" class="p-4" style="width:11.1rem;"></center>
@@ -1017,26 +1173,32 @@ $('#sidebuy').toggleClass('active');
 								</div>
 								<div class="p-2">
 									<h6 class="text-dark">$ราคา 33.00฿ บาท</h6>		
-																			<a href="page-buyapp-id-24.html"><button class="btn bg-success text-white w-100 mb-2" style="border-radius: 10px;">สั่งซื้อ (33.00฿ บาท)</button></a>
+																			<a href="?page=buyapp&amp;id=24"><button class="btn bg-success text-white w-100 mb-2" style="border-radius: 10px;">สั่งซื้อ (33.00฿ บาท)</button></a>
 																	</div>
 							</div>
 						</div>-->
+                    	
 					<center>
                        <img src="https://img_app.byshop.me/api/img/app/&n.png" width="75" height="75" style="border-radius: 50%; border: 2px solid #000000!important;"><br>
 						<font size="2" color="000" class="mt-2"><b> YOUKU VIP /30วัน </b></font><br>
 												<font size="1" color="000" class="mt-2"><b><span class="badge badge-e"><font color="ffffff" size="2"><i class="fas fa-check-circle"></i> เหลือ 4 ชิ้น</font></span></b></font><br/>
 												 <font size="3" color="000" class="mt-2"><i class='bx bx-coin-stack'></i> ราคา : 33.00฿ </font><br/>
-						<a href="page-buyapp-id-24.html"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
+						<a href="?page=buyapp&amp;id=24"><button class="btn bg-main text-white w-100 mb-2" style="border-radius: 10px;">ซื้อสินค้า</button></a>
 						<br>
 						                       </center> </div>
         </div></a></div>      
+        
+        
+        
 </div> 
 		<br/>		<br/>
 </div></div>
+    
 <br>
 	  <div class="row">
 		<div class="col-sm-12 col-md-4">
     <div class="p-3 mb-2 bg-white text-dark text-center border">
+        
       <h5 class="typing-animation" style="font-weight: bold;">เปิดเว็บไซต์ตัวแทน</h5>
       <p>LUCKY | เรามีบริการเปิดเว็บอัตโนมัติ !! <br>
 		ราคาเริ่มต้นที่ 69฿/เดือน ต้องการเช่าเว็บ <br>
@@ -1044,10 +1206,12 @@ $('#sidebuy').toggleClass('active');
     </div>
   </div>
     </div>  </div>
+
     <!-- </div>
 </div> -->
 <div class="col-sm-12 col-md-4">
     <div class="p-3 mb-2 bg-white text-dark text-center border">
+        
       <h5 class="typing-animation" style="font-weight: bold;">บริการ API TOPUP</h5>
       <p>LUCKY | ปัญหาเรื่องระบบเติมเงิน !! <br>
 		ซื้อ source มาจากที่อื่นแล้วระบบเติมเงินไม่มี <br>
@@ -1055,20 +1219,27 @@ $('#sidebuy').toggleClass('active');
     </div>
   </div>
     </div>  </div>
+
     <!-- </div>
 </div> -->
 <br>
 	<div class="col-sm-12 col-md-4">
+		
       <br>
       <center><img src="https://lucky.4hr.shop/img/devops.jpg" height="200px" width="auto"></center>
       <br>
+      
     </div>
   </div>
     </div>  </div>
+
     <!-- </div>
 </div> -->
     <div class="m-cent  p-4 pt-2 pb-2 " style="border-radius: 1vh;">
+
+        
     </div>
+
 <div class="modal fade" id="product_detail" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -1082,6 +1253,7 @@ $('#sidebuy').toggleClass('active');
 						  <img class="img-fluid" id="image" width="75" height="75"><br>
                             <p id="name" style="word-wrap: break-word;">N/A</p>
                         </center>
+
                     </div>
                     <div class="container-fluid ps-3 pe-3">
                         <p class="text-dark m-0"><i class="fa-regular fa-info-circle"></i> รายละเอียดสินค้า </p>
@@ -1097,9 +1269,12 @@ $('#sidebuy').toggleClass('active');
             </div>
         </div>
     </div> 
+
     <script src="system/js/countup.js"></script>
 </div>
+
 <script>
+
 $(".shop-buy").click(function(){
 	var id =  $(this).attr("data-id");
     var name =  $(this).attr("data-name");
@@ -1117,7 +1292,7 @@ $(".shop-buy").click(function(){
         if (result.isConfirmed) {
             $.ajax({
                 type:"POST",
-                url:"system/buyid.html",
+                url:"system/buyid.php",
                 dataType:"json",
                 data:{id},
                 success:function(data){
@@ -1137,6 +1312,7 @@ $(".shop-buy").click(function(){
                             icon: 'success',
                             title: data.msg,
                         }).then(function () {
+                            window.location.href = '?page=profile&subpage=buyhis';
                         });
                     }else{
                 const Toast = Swal.mixin({
@@ -1151,6 +1327,7 @@ $(".shop-buy").click(function(){
                     icon: data.status,
                     title: data.msg
                 }).then(function () {
+                    window.location.reload();
                 });
             }
                 }
@@ -1158,12 +1335,14 @@ $(".shop-buy").click(function(){
         }
       })
 })	
+
 function get_detail(id) {
         var formData = new FormData();
         formData.append('id', id);
+
         $.ajax({
             type: 'POST',
-            url: 'system/call/product_detail.html',
+            url: 'system/call/product_detail.php',
             data: formData,
             contentType: false,
             processData: false,
@@ -1189,8 +1368,10 @@ function get_detail(id) {
             })
             //console.clear();
         });
+
     }
 	</script>
+
 <script>
 function submitResult(e) {
     e.preventDefault();
@@ -1236,8 +1417,10 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 </script>
+
    	<script src="assets/js/particles.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+
     <script src="assets/js/jquery-3.4.1.min.js"></script>    <!-- <script src="assets/js/jquery-3.4.1.min.js"></script> -->
     <script src="assets/js/a.js?1720033972"></script>
             <script src="assets/js/app.js?1720033972"></script>
@@ -1252,12 +1435,14 @@ function openCity(evt, cityName) {
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
     <script>
+
         $(document).ready(function() {
             $('.summernote').summernote({
                 height: 200,
                 // 'height': '1000%',
                 'width': '100%',
             });
+
         });
     <div class="modal fade" id="buy_count" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -1296,8 +1481,10 @@ function openCity(evt, cityName) {
                 </div>
             </div>
         </div>
+		
     </div>
      </div>   
+  
     </div>	</html>
     <!-- <script src="system/gshake/gshake.js"></script> -->
     <!-- <script src="assets/owl/dist/owl.carousel.min.js"></script> -->
@@ -1328,9 +1515,11 @@ function openCity(evt, cityName) {
             })
             myModal.show();
         }
+
         function detail(id) {
             var formData = new FormData();
             formData.append('id', id);
+
             $.ajax({
                 type: 'POST',
                 url: 'system/call/product_detail.php',
@@ -1367,6 +1556,7 @@ function openCity(evt, cityName) {
                         title: 'สำเร็จ',
                         text: result.message
                     }).then(function() {
+                        window.location = "?page=profile&subpage=buyhis";
                     });
                 } else {
                     await GShake();
@@ -1393,6 +1583,7 @@ function openCity(evt, cityName) {
                 }
             }
         }
+
         function buybox() {
             var name = $("#shop-btn").attr("data-name");
             var price = $("#shop-btn").attr("data-price");
@@ -1412,7 +1603,7 @@ function openCity(evt, cityName) {
                 if (result.isConfirmed) {
                     $.ajax({
                         type: 'POST',
-                        url: 'system/buybox.html',
+                        url: 'system/buybox.php',
                         data: formData,
                         contentType: false,
                         processData: false,
@@ -1432,12 +1623,14 @@ function openCity(evt, cityName) {
                         console.log(jqXHR)
                         res = jqXHR.responseJSON;
                         shake_alert(false, res);
+
                         $('#btn_buyid').html('<i class="fas fa-shopping-cart mr-1"></i>สั่งซื้อสินค้า');
                         $('#btn_buyid').removeAttr('disabled');
                     });
                 }
             })
         }
+		
 $(".submit_buy").click(function(){
     var name = $(this).attr("name");
 	var price = $(this).attr("point");
@@ -1455,7 +1648,7 @@ $(".submit_buy").click(function(){
         if (result.isConfirmed) {
             $.ajax({
                 type:"POST",
-                url:"system/buyid.html",
+                url:"system/buyid.php",
                 dataType:"json",
                 data:{id},
                 success:function(data){
@@ -1475,6 +1668,7 @@ $(".submit_buy").click(function(){
                             icon: 'success',
                             title: data.msg,
                         }).then(function () {
+                            window.location.href = '?page=profile&subpage=buyhis';
                         });
                     }else{
                 const Toast = Swal.mixin({
@@ -1489,6 +1683,7 @@ $(".submit_buy").click(function(){
                     icon: data.status,
                     title: data.msg
                 }).then(function () {
+                    window.location.reload();
                 });
             }
                 }
@@ -1506,7 +1701,7 @@ $(".submit_buy").click(function(){
         // };
         // var typed = new Typed('#typing', options);
     </script>
-<center><font size="2">This is the free demo result. For a full version of this website, please go to  <a href="https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/">Website Downloader</a></font></center></body>
+</body>
 <script>
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
@@ -1578,12 +1773,14 @@ document.getElementById("defaultOpen").click();
             })
             myModal.show();
         }
+
         function detail(id) {
             var formData = new FormData();
             formData.append('id', id);
+
             $.ajax({
                 type: 'POST',
-                url: 'system/call/product_detail.html',
+                url: 'system/call/product_detail.php',
                 data: formData,
                 contentType: false,
                 processData: false,
@@ -1617,6 +1814,7 @@ document.getElementById("defaultOpen").click();
                         title: 'สำเร็จ',
                         text: result.message
                     }).then(function() {
+                        window.location = "?page=profile&subpage=buyhis";
                     });
                 } else {
                     await GShake();
@@ -1643,6 +1841,7 @@ document.getElementById("defaultOpen").click();
                 }
             }
         }
+
         function buybox() {
             var name = $("#shop-btn").attr("data-name");
             var formData = new FormData();
@@ -1660,7 +1859,7 @@ document.getElementById("defaultOpen").click();
                 if (result.isConfirmed) {
                     $.ajax({
                         type: 'POST',
-                        url: 'system/buybox.html',
+                        url: 'system/buybox.php',
                         data: formData,
                         contentType: false,
                         processData: false,
@@ -1680,6 +1879,7 @@ document.getElementById("defaultOpen").click();
                         console.log(jqXHR)
                         res = jqXHR.responseJSON;
                         shake_alert(false, res);
+
                         $('#btn_buyid').html('<i class="fas fa-shopping-cart mr-1"></i>สั่งซื้อสินค้า');
                         $('#btn_buyid').removeAttr('disabled');
                     });
@@ -1696,5 +1896,6 @@ document.getElementById("defaultOpen").click();
         // };
         // var typed = new Typed('#typing', options);
     </script>
-<center><font size="2">This is the free demo result. For a full version of this website, please go to  <a href="https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/">Website Downloader</a></font></center></body>
+</body>
+
 </html>
